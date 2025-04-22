@@ -8,7 +8,6 @@ git clone https://github.com/matheusmanvel/site-simples-com-html-e-css.git
 sudo mv site-simples-com-html-e-css/* /var/www/aluno/public_html/ 
 sudo rm -rf site-simples-com-html-e-css/
 
-```bash
 sudo tee /etc/apache2/sites-available/aluno.conf <<-EOF
 <VirtualHost *:80>
     ServerAdmin admin@aluno
