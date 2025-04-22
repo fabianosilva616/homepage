@@ -27,7 +27,7 @@ sudo tee /etc/apache2/sites-available/aluno.conf <<-EOF
 </VirtualHost>
 EOF
 
-
+Feito isso, siga com os passos seguintes:
 
 sudo a2ensite aluno.conf         # Ativa o arquivo de configuração do site.
 sudo echo "127.0.0.1 aluno" | sudo tee -a /etc/hosts # Adiciona 'aluno' ao arquivo hosts para resolução local do domínio.
